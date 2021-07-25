@@ -1,0 +1,49 @@
+.team-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+.team-members{
+    display: grid;
+    grid-template-columns: repeat(5, 250px);
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.team-quote{
+    margin: 30px 0;
+}
+
+@media  only screen and (max-width: 1300px) {
+    .team-members{
+        display: grid;
+        grid-template-columns: repeat(3, 250px);
+        grid-gap: 10px;
+        padding: 10px;
+    }
+
+}
+
+@media  only screen and (max-width: 800px) {
+    .team-members{
+        display: grid;
+        grid-template-columns: repeat(2, 250px);
+        grid-gap: 10px;
+        padding: 10px;
+    }
+
+}
+
+@media  only screen and (max-width: 500px) {
+    .team-members{
+        display: grid;
+        grid-template-columns: repeat(1, 250px);
+        grid-gap: 10px;
+        padding: 10px;
+    }
+
+}
+
