@@ -1,0 +1,16 @@
+
+.btn{
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    background-color: #fff;
+    cursor: pointer;
+    height: 45px;
+}
+.btn-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}

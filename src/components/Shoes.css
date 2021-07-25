@@ -1,0 +1,27 @@
+
+.shoe-card{
+    display: flex;
+    flex-direction: column;
+    width:auto;
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin:20px 0;
+}
+.shoe-image{
+    width: 90%;
+    height: 180px;
+}
+.shoe-heading{
+    margin:10px;
+}
+.shoe-para{
+    margin:5px 10px;
+}
+
+@media only screen and (max-width:1000px){
+    .shoe-image{
+        width: 90%;
+        height: 250px;
+    }
+}
