@@ -11,8 +11,8 @@ function TeamCard(props) {
     return (
         <div className='team-card'>
            <img  className='member-image' src ={props.src}  alt='member image'/> 
-           <h2>{props.name}</h2>
-           <h4>{props.role}</h4>
+           <h2 className='member-name'>{props.name}</h2>
+           <h4 className='member-role'>{props.role}</h4>
            <div className='social-media'>
                <img className='team-card-image' src={imag1}></img>
                <img className='team-card-image' src={imag2}></img>
